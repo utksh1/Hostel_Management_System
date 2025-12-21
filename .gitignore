@@ -67,3 +67,22 @@ jspm_packages/
 
 # DynamoDB Local files
 .dynamodb/
+
+# React/Vite client
+client/node_modules/
+client/dist/
+client/.vite/
+client/build/
+
+# React/Vite environment variables
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# React/Vite logs
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
