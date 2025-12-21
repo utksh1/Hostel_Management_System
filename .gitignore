@@ -1,15 +1,15 @@
-# Node.js dependencies
+# Dependencies
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Environment variables (already covered below)
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
 
 # Logs
 logs
@@ -28,7 +28,7 @@ coverage/
 .nyc_output
 
 # Dependency directories
-jspm_packages/
+node_modules/
 
 # Optional npm cache directory
 .npm
@@ -42,36 +42,28 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
+# dotenv environment variables file
+.env
 
-# next.js build output
-.next
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# nuxt.js build output
-.nuxt
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# vuepress build output
-.vuepress/dist
+# Database files
+*.sqlite
+*.db
 
-# Serverless directories
-.serverless
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# React/Vite client
-client/node_modules/
-client/dist/
-client/.vite/
-client/build/
-
-# React/Vite logs
-client/*.log
-client/npm-debug.log*
-client/yarn-debug.log*
-client/yarn-error.log*
+# Temporary files
+tmp/
+temp/

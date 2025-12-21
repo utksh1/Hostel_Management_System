@@ -3,9 +3,13 @@ const router = express.Router();
 
 // Import route modules
 const healthRoutes = require('./health');
+const authRoutes = require('./authRoutes');
+const adminRoutes = require('./adminRoutes');
 
 // Mount routes
 router.use('/', healthRoutes);
+router.use('/auth', authRoutes);
+router.use('/admin', adminRoutes);
 
 // API info endpoint
 router.get('/', (req, res) => {
